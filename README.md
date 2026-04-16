@@ -19,11 +19,14 @@ This project:
 
 ## 📁 Project Structure
 
+
+```bash
 src/
 └── icu_mortality/
 ├── init.py
 └── main.py
 pyproject.toml
+ ```
 
 ---
 
