@@ -116,11 +116,6 @@ def train_and_evaluate(models: dict, X_train, X_test, y_train, y_test) -> dict:
  
     return results
  
- 
-# ============================================================
-# 4. EVALUATION PLOTS
-# ============================================================
- 
 def plot_roc_curves(results: dict, y_test):
     """Plot ROC curves for all models on one chart."""
     plt.figure(figsize=(8, 6))
