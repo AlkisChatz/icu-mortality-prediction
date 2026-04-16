@@ -21,11 +21,13 @@ This project:
 
 
 ```bash
-└── icu_mortality/
-    ├── __init__.py
-    └── main.py
-
-pyproject.toml
+icu-mortality-prediction/
+├── src/
+│   └── icu_mortality/
+│       ├── __init__.py
+│       └── main.py
+├── pyproject.toml
+└── README.md
  ```
 
 ---
@@ -54,6 +56,9 @@ The best-performing model is analyzed using **SHAP (SHapley Additive Explanation
 ---
 
 ## ⚙️ Installation
+
+Requires:
+- Python 3.9+
 
 Clone the repository:
 
