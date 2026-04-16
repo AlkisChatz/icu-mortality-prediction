@@ -21,10 +21,10 @@ This project:
 
 
 ```bash
-src/
 └── icu_mortality/
-├── init.py
-└── main.py
+    ├── __init__.py
+    └── main.py
+
 pyproject.toml
  ```
 
